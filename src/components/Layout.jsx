@@ -49,7 +49,7 @@ const Layout = ({ isDarkMode, toggleTheme }) => {
       <AppContainer>
         <Header>
           <HeaderLeft>
-             <Logo onClick={() => navigate('/')} $isDarkMode={isDarkMode}>News Azit</Logo>
+             <Logo onClick={() => navigate('/')} $isDarkMode={isDarkMode}>AZ News Azit</Logo>
           </HeaderLeft>
           <HeaderRight>
             <IconButton onClick={toggleTheme} title="테마 변경">
