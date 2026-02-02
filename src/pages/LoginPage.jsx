@@ -9,7 +9,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
 
   const handleGoogleLogin = () => {
-      window.location.href = 'http://52.63.95.38:8080/oauth2/authorization/google';
+      window.location.href = 'http://52.62.143.22.nip.io:8080/oauth2/authorization/google';
     };
 
   // ★ 진짜 로그인 함수
